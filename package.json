@@ -1,0 +1,48 @@
+{
+  "name": "appc.postgresql",
+  "description": "",
+  "version": "1.0.0",
+  "author": "Meglena Lukanova",
+  "license": "",
+  "framework": "none",
+  "keywords": [
+    "appcelerator",
+    "arrow"
+  ],
+  "repository": {},
+  "private": true,
+  "dependencies": {
+    "appc-connector-utils": "^0.4.0",
+    "lodash": "^3.10.1",
+    "mockery": "^2.0.0",
+    "pg": "^6.1.5",
+    "pg-config": "0.0.1",
+    "pkginfo": "^0.3.1",
+    "ramda": "^0.23.0",
+    "semver": "^5.0.3",
+    "sinon": "^2.2.0",
+    "tap": "^10.3.2"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-appc-js": "^1.0.19",
+    "grunt-contrib-clean": "^0.7.0",
+    "grunt-mocha-istanbul": "^3.0.1",
+    "istanbul": "^0.4.1",
+    "mocha": "^2.3.4",
+    "should": "^8.0.2",
+    "arrow": "^*"
+  },
+  "scripts": {
+    "start": "appc run",
+    "lint": "standard --fix",
+    "check-security": "nsp check || true",
+    "check-deps": "retire || true",
+    "clean": "rimraf ./tmp",
+    "checks": "npm run check-deps && npm run check-security",
+    "test:coverage": "nyc check-coverage --lines 90 --functions 85 --branches 85 --statements 90",
+    "test": "npm run checks && npm run lint && npm run test:unit && npm run clean",
+    "test:unit": "tap ./test/unit/* --color --bail --coverage --coverage-report=html && npm run test:coverage",
+    "test:integration": "tap ./test/integration/* --color --bail"
+  }
+}

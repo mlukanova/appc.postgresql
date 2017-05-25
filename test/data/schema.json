@@ -1,0 +1,228 @@
+{
+  "rows": [
+    {
+      "table_name": "city",
+      "column_name": "name",
+      "is_nullable": "true",
+      "data_type": "text",
+      "column_default": null,
+      "indisprimary": null
+    },
+    {
+      "table_name": "city",
+      "column_name": "countrycode",
+      "is_nullable": "true",
+      "data_type": "character(3)",
+      "column_default": null,
+      "indisprimary": null
+    },
+    {
+      "table_name": "city",
+      "column_name": "district",
+      "is_nullable": "true",
+      "data_type": "text",
+      "column_default": null,
+      "indisprimary": null
+    },
+    {
+      "table_name": "city",
+      "column_name": "id",
+      "is_nullable": "true",
+      "data_type": "integer",
+      "column_default": null,
+      "indisprimary": true
+    },
+    {
+      "table_name": "city",
+      "column_name": "population",
+      "is_nullable": "true",
+      "data_type": "integer",
+      "column_default": null,
+      "indisprimary": null
+    },
+    {
+      "table_name": "country",
+      "column_name": "continent",
+      "is_nullable": "true",
+      "data_type": "text",
+      "column_default": null,
+      "indisprimary": null
+    },
+    {
+      "table_name": "country",
+      "column_name": "capital",
+      "is_nullable": "false",
+      "data_type": "integer",
+      "column_default": null,
+      "indisprimary": null
+    },
+    {
+      "table_name": "country",
+      "column_name": "gnpold",
+      "is_nullable": "false",
+      "data_type": "numeric(10,2)",
+      "column_default": null,
+      "indisprimary": null
+    },
+    {
+      "table_name": "country",
+      "column_name": "lifeexpectancy",
+      "is_nullable": "false",
+      "data_type": "real",
+      "column_default": null,
+      "indisprimary": null
+    },
+    {
+      "table_name": "country",
+      "column_name": "localname",
+      "is_nullable": "true",
+      "data_type": "text",
+      "column_default": null,
+      "indisprimary": null
+    },
+    {
+      "table_name": "country",
+      "column_name": "name",
+      "is_nullable": "true",
+      "data_type": "text",
+      "column_default": null,
+      "indisprimary": null
+    },
+    {
+      "table_name": "country",
+      "column_name": "indepyear",
+      "is_nullable": "false",
+      "data_type": "smallint",
+      "column_default": null,
+      "indisprimary": null
+    },
+    {
+      "table_name": "country",
+      "column_name": "headofstate",
+      "is_nullable": "false",
+      "data_type": "text",
+      "column_default": null,
+      "indisprimary": null
+    },
+    {
+      "table_name": "country",
+      "column_name": "surfacearea",
+      "is_nullable": "true",
+      "data_type": "real",
+      "column_default": null,
+      "indisprimary": null
+    },
+    {
+      "table_name": "country",
+      "column_name": "code2",
+      "is_nullable": "true",
+      "data_type": "character(2)",
+      "column_default": null,
+      "indisprimary": null
+    },
+    {
+      "table_name": "country",
+      "column_name": "code",
+      "is_nullable": "true",
+      "data_type": "character(3)",
+      "column_default": null,
+      "indisprimary": true
+    },
+    {
+      "table_name": "country",
+      "column_name": "region",
+      "is_nullable": "true",
+      "data_type": "text",
+      "column_default": null,
+      "indisprimary": null
+    },
+    {
+      "table_name": "country",
+      "column_name": "governmentform",
+      "is_nullable": "true",
+      "data_type": "text",
+      "column_default": null,
+      "indisprimary": null
+    },
+    {
+      "table_name": "country",
+      "column_name": "gnp",
+      "is_nullable": "false",
+      "data_type": "numeric(10,2)",
+      "column_default": null,
+      "indisprimary": null
+    },
+    {
+      "table_name": "country",
+      "column_name": "population",
+      "is_nullable": "true",
+      "data_type": "integer",
+      "column_default": null,
+      "indisprimary": null
+    },
+    {
+      "table_name": "countrylanguage",
+      "column_name": "isofficial",
+      "is_nullable": "true",
+      "data_type": "boolean",
+      "column_default": null,
+      "indisprimary": null
+    },
+    {
+      "table_name": "countrylanguage",
+      "column_name": "percentage",
+      "is_nullable": "true",
+      "data_type": "real",
+      "column_default": null,
+      "indisprimary": null
+    },
+    {
+      "table_name": "countrylanguage",
+      "column_name": "countrycode",
+      "is_nullable": "true",
+      "data_type": "character(3)",
+      "column_default": null,
+      "indisprimary": true
+    },
+    {
+      "table_name": "countrylanguage",
+      "column_name": "language",
+      "is_nullable": "true",
+      "data_type": "text",
+      "column_default": null,
+      "indisprimary": true
+    },
+    {
+      "table_name": "testAuto",
+      "column_name": "Desc",
+      "is_nullable": "false",
+      "data_type": "char",
+      "column_default": null,
+      "indisprimary": null
+    },
+    {
+      "table_name": "testAuto",
+      "column_name": "Name",
+      "is_nullable": "true",
+      "data_type": "char",
+      "column_default": null,
+      "indisprimary": null
+    },
+    {
+      "table_name": "testAuto",
+      "column_name": "Date",
+      "is_nullable": "true",
+      "data_type": "date",
+      "column_default": null,
+      "indisprimary": null
+    },
+    {
+      "table_name": "testAuto",
+      "column_name": "idAuto",
+      "is_nullable": "true",
+      "data_type": "integer",
+      "column_default": "nextval('testAuto_id_seq': :regclass)",
+      "indisprimary": true
+    }
+  ]
+}
