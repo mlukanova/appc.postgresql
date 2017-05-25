@@ -14,24 +14,23 @@
   "dependencies": {
     "appc-connector-utils": "^0.4.0",
     "lodash": "^3.10.1",
-    "mockery": "^2.0.0",
     "pg": "^6.1.5",
     "pg-config": "0.0.1",
     "pkginfo": "^0.3.1",
     "ramda": "^0.23.0",
-    "semver": "^5.0.3",
-    "sinon": "^2.2.0",
-    "tap": "^10.3.2"
+    "semver": "^5.0.3"
   },
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-appc-js": "^1.0.19",
-    "grunt-contrib-clean": "^0.7.0",
-    "grunt-mocha-istanbul": "^3.0.1",
+    "arrow": "^*",
     "istanbul": "^0.4.1",
     "mocha": "^2.3.4",
+    "mockery": "^2.0.0",
+    "nsp": "^2.6.3",
+    "retire": "^1.3.1",
     "should": "^8.0.2",
-    "arrow": "^*"
+    "sinon": "^2.3.1",
+    "standard": "^10.0.2",
+    "tap": "^10.3.2"
   },
   "scripts": {
     "start": "appc run",
