@@ -67,8 +67,10 @@ Then open the admin ui pannel usually at http://localhost:8080/arrow to play wit
 
 The connector handles data sources with auto generated ids and user defined ones. If your service has auto generated ids you'll see the Key of every entity as 'id'. Otherwise you'll also have a dublicate of the id. For example if your Key is 'UserName' the dublicate will be visible as 'UserNameID' and will have the same value as 'id'.  
 You can create a new record by entering the value for the Key as the dublicate. For example if we enter data: 
+
 ```sh
-{'UserNameID': 'johndoe',
+{
+  'UserNameID': 'johndoe',
   'Age' : 30
 }
 ```
@@ -76,8 +78,9 @@ and we have Key for the table 'UserName' this will create a record with 'UserNam
 
 ## Where clause
 
-The connector supports queries. You can use the following: '{"Name": {"$eq": "Tom"}}' to get the record with 'Name' equal to 'Tom'.
-Full list of all supported operators :
+The connector supports queries. You can use the following: '{"Name": {"$eq": "Tom"}}' to get the record with 'Name' equal to 'Tom'. Full list of all supported operators:
+
+
  Operator | Meaning              
 ----------|----------------------
  $lt      | less than            
@@ -106,6 +109,7 @@ Make sure the test suite is still working after code changes
 
 ### Start the connector in standalone mode 
 Run the following command to do this:
+
 ```sh
 npm start
 ```
